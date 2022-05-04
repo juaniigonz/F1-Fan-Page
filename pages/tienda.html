@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header__color">
         <nav class="header__color">
             <img src="https://www.formula1.com/etc/designs/fom-website/images/fia_logo.png" class="header__fia" alt="fia_logo_final_">
             <a href= ../index.html ><img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" class="header__f1"  alt="f1"></a>    
             <div class="nav__flex">
-            <ul class="header__nav">
+            <ul class="header__nav" id="lateral">
+                <a href="#"><li><img src="../imagenes/right-arrow-alt-regular-24.png" class="flecha__cierre" alt="flecha__cierre"></li></a>
                 <a href="./escuderias.html">  <li>escuderias</li></a>
                 <a href="./pilotos.html"><li>pilotos</li></a>
                 <a href="./circuitos.html"><li>circuitos</li></a>
@@ -21,6 +22,10 @@
             </ul>
         </div>
         </nav>
+            <a href="#lateral" class="nav__open">
+                <img src="../imagenes/menu-alt-right-regular-24.png" width="35px" alt="menu lateral">
+                <span class="jam jam-menu"></span>
+            </a>
 </header>
     <main>
         <div class="store">
@@ -126,8 +131,8 @@
     <footer class="footer">
         <div class="footer__redes">
             <a href= https://www.instagram.com/f1/ ><img src="../imagenes/Instagram.png" width="20" alt="instagram"></a>
-            <a href= https://www.facebook.com/Formula1  ><img src="../imagenes/Facebook-Logo-Square-768x768.png" width="20" alt="facebook"></a>
-            <a href= https://twitter.com/f1 ><img src="../imagenes/twitter.jpg" width="20" alt="twitter"></a>
+            <a href= https://www.facebook.com/Formula1  ><img src="../imagenes/facebook.png" width="20" alt="facebook"></a>
+            <a href= https://twitter.com/f1 ><img src="../imagenes/twitter.png" width="20" alt="twitter"></a>
             <a href= https://www.youtube.com/F1 ><img src="../imagenes/youtube.png" width="20" alt="youtube"></a>
         </div>
 
@@ -135,21 +140,21 @@
 
         </div>
         <div class=" formulario">
-            <h3>Contactanos</h3>
-            <form action="" method="post"> <!--a donde enviar los datos? -->
+            <p>Contactanos</p>
+            <form class="formulario__cont" action="" method="post"> <!--a donde enviar los datos? -->
                 <label for="Nombre">Nombre</label>
                 <input id="Nombre" name="Nombre" type="text" placeholder="Nombre">
-                <br>
+
                 <label for="Apellido">Apellido</label>
                 <input id="Apellido" name="Apellido" type="text" placeholder="Apellido">
-                <br>
+
                 <label for="Informacion de contacto">Informacion de contacto</label>
                 <input type="email" name="Informacion de contacto" id="Informacion de contacto" placeholder="Tu email">
-                <br>
+
                 <label for="Preguntas y Comentarios">Preguntas y comentarios</label>
-                <br>
+
                 <textarea name="Comentarios" id="Preguntas y Comentario" cols="30" rows="7"></textarea>
-                <br>
+
                 <input type="submit" name="Enviar" id="Enviar">
             </form>
 
@@ -160,7 +165,6 @@
 
 
     </footer>
-
 
 
 </body>

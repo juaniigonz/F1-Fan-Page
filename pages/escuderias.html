@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header__color">
         <nav class="header__color">
             <img src="https://www.formula1.com/etc/designs/fom-website/images/fia_logo.png" class="header__fia" alt="fia_logo_final_">
             <a href= ../index.html ><img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" class="header__f1"  alt="f1"></a>    
             <div class="nav__flex">
-            <ul class="header__nav">
+            <ul class="header__nav" id="lateral">
+                <a href="#"><li><img src="../imagenes/right-arrow-alt-regular-24.png" class="flecha__cierre" alt="flecha__cierre"></li></a>
                 <a href="./escuderias.html">  <li>escuderias</li></a>
                 <a href="./pilotos.html"><li>pilotos</li></a>
                 <a href="./circuitos.html"><li>circuitos</li></a>
@@ -21,576 +22,159 @@
             </ul>
         </div>
         </nav>
+            <a href="#lateral" class="nav__open">
+                <img src="../imagenes/menu-alt-right-regular-24.png" width="35px" alt="menu lateral">
+                <span class="jam jam-menu"></span>
+            </a>
 </header>
     <main class="escuderias">
-        <div>
+        <div class="esc__dis">
             <h4>Ferrari</h4>
-            <section class="escuderia__ferrari">
-            <img src="../imagenes/escuderias/ferrari.png" class="escuderia__ferrari_img" alt="Ferrari">
-        </section>
-            <table>
-            <tbody class="table__escuderia">
-               <tr>
-                   <th>
-                       <span>Nombre Completo</span>
-                   </th>
-                   <td>Scuderia Ferrari</td>
-               </tr>
-               <tr>
-                <th>
-                    <span>Base</span>
-                </th>
-                <td>Maranello. Italia</td>
-            </tr>
-            <tr>
-                <th>
-                    <span>Chasis</span>
-                </th>
-                <td>F1-75</td>
-            </tr>
-            <tr>
-                <th>
-                    <span>Unidad de poder</span>
-                </th>
-                <td>Ferrari</td>
-            </tr>
-            <tr>
-                <th>
-                    <span>Campeonatos Mundiales</span>
-                </th>
-                <td>16</td>
-            </tr>
-            <tr>
-                <th>
-                    <span>Mejor puesto en carrera</span>
-                </th>
-                <td>1°(x241)</td>
-            </tr>
-            <tr>
-                <th>
-                    <span>Poles</span>
-                </th>
-                <td>232</td>
-            </tr>
-            <tr>
-                <th>
-                    <span>Vueltas Rapidas</span>
-                </th>
-                <td>256</td>
-            </tr>
-            </tbody>
-           </table>
+            <img src="../imagenes/escuderias/ferrari.png" alt="Ferrari">
+        <ul>
+            <li>Nombre: Scuderia Ferrari</li>
+            <li>Base: Maranello, Italia</li>
+            <li>Chasis: F1-75</li>
+            <li>Unidad de poder: Ferrari</li>
+            <li>Campeonatos Mundiales: 16</li>
+            <li>Mejor puesto en carrera: 1°(x241)</li>
+            <li>Poles: 232</li>
+            <li>Vueltas Rapidas: 256</li>
+        </ul>
+
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Mercedes Benz</h4>
             <img src="../imagenes/escuderias/mercedes.png" alt="Mercedes-Benz">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>Mercedes-AMG Petronas F1 Team</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Brackley,  Reino Unido</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>W13</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Mercedes</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>8</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x115)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>127</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>85</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: Mercedes-AMG Petronas F1 Team</li>
+                <li>Base: Brackley, Reino Unido</li>
+                <li>Chasis: W13</li>
+                <li>Unidad de poder: Mercedes</li>
+                <li>Campeonatos Mundiales: 8</li>
+                <li>Mejor puesto en carrera: 1°(115)</li>
+                <li>Poles: 127</li>
+                <li>Vueltas Rapidas: 85</li>
+            </ul>
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Red Bull</h4>
             <img src="../imagenes/escuderias/red bull.png" alt="Red-Bull">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>Oracle Red Bull Racing</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Milton Keynes, Reino Unido</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>RB18</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Red Bull Powertrains</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>4</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x76)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>74</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>76</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: Oracle Red Bull Racing</li>
+                <li>Base: Milton Keynes, Reino Unido </li>
+                <li>Chasis: RB18 </li>
+                <li>Unidad de poder: Red Bull Powertrains </li>
+                <li>Campeonatos Mundiales: 4</li>
+                <li>Mejor puesto en carrera: 1°(x77)</li>
+                <li>Poles:75</li>
+                <li>Vueltas Rapidas:77</li>
+            </ul>     
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Mclaren</h4>
             <img src="../imagenes/escuderias/mclaren.png" alt="Mclaren">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>McLaren F1 Team</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Woking, Reino Unido</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>MCL36</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Mercedes</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>8</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x183)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>156</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>160</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: McLaren F1 Team </li>
+                <li>Base: Woking, Reino Unido </li>
+                <li>Chasis: MCL36 </li>
+                <li>Unidad de poder: Mercedes</li>
+                <li>Campeonatos Mundiales: 8</li>
+                <li>Mejor puesto en carrera: 1°(x183)</li>
+                <li>Poles: 156</li>
+                <li>Vueltas Rapidas: 160</li>
+            </ul> 
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Aston Martin</h4>
             <img src="../imagenes/escuderias/aston martin.png" alt="Aston-Martin">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>Aston Martin Aramco Cognizant F1 Team</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Silverstone, Reino Unido</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>AMR22</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Mercedes</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>N/A</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x1)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>1</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>N/A</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: Aston Martin Aramco Cognizant F1 Team </li>
+                <li>Base: Silverstone, Reino Unido </li>
+                <li>Chasis: AMR22</li>
+                <li>Unidad de poder: Mercedes</li>
+                <li>Campeonatos Mundiales: N/A</li>
+                <li>Mejor puesto en carrera: 1°(x1)</li>
+                <li>Poles: 1</li>
+                <li>Vueltas Rapidas: N/A</li>
+            </ul> 
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Alpha Tauri</h4>
             <img src="../imagenes/escuderias/alpha tauri.png" alt="Alpha-Tauri">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>Scuderia AlphaTauri</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Faenza, Italia</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>AT03</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Red Bull Powertrains</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>N/A</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x2)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>1</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>2</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: Scuderia AlphaTauri</li>
+                <li>Base: Faenza, Italia</li>
+                <li>Chasis: AT03</li>
+                <li>Unidad de poder: Red Bull Powertrains </li>
+                <li>Campeonatos Mundiales: N/A</li>
+                <li>Mejor puesto en carrera: 1°(x2)</li>
+                <li>Poles: 1</li>
+                <li>Vueltas Rapidas: 2</li>
+            </ul> 
         </div>       
-         <div>
+        <div class="esc__dis">
             <h4>Alfa Romeo</h4>
             <img src="../imagenes/escuderias/alfa romeo.png" alt="AlfaRomeo">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>Alfa Romeo F1 Team ORLEN</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Hinwil, Suiza</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>C42</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Ferrari</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>N/A</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x1)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>1</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>5</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: Alfa Romeo F1 Team ORLEN </li>
+                <li>Base: Hinwil, Suiza </li>
+                <li>Chasis: C42 </li>
+                <li>Unidad de poder: Ferrari</li>
+                <li>Campeonatos Mundiales: N/A</li>
+                <li>Mejor puesto en carrera: 1°(x1)</li>
+                <li>Poles: 1</li>
+                <li>Vueltas Rapidas: 5</li>
+            </ul> 
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Alpine</h4>
             <img src="../imagenes/escuderias/alpine.png" alt="Alpine">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>BWT Alpine F1 Team</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Enstone, Reino Unido</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>A522</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Renault</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>2</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x21)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>20</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>15</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: BWT Alpine F1 Team</li>
+                <li>Base: Enstone, Reino Unido </li>
+                <li>Chasis: A522 </li>
+                <li>Unidad de poder: Renault</li>
+                <li>Campeonatos Mundiales: 2</li>
+                <li>Mejor puesto en carrera: 1°(x21)</li>
+                <li>Poles: 20</li>
+                <li>Vueltas Rapidas: 15</li>
+            </ul> 
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Haas</h4>
             <img src="../imagenes/escuderias/haas.png" alt="Haas">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>Haas F1 Team</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Kannapolis, USA</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>VF-22</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Ferrari</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>N/A</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>4°(x1)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>N/A</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>2</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: Haas F1 Tean </li>
+                <li>Base: Kannapolis, USA</li>
+                <li>Chasis: VF-22</li>
+                <li>Unidad de poder: Ferrari </li>
+                <li>Campeonatos Mundiales: N/A</li>
+                <li>Mejor puesto en carrera: 4°(x1)</li>
+                <li>Poles: N/A</li>
+                <li>Vueltas Rapidas: 2</li>
+            </ul> 
         </div>
-        <div>
+        <div class="esc__dis">
             <h4>Williams</h4>
             <img src="../imagenes/escuderias/william.png" alt="Williams">
-           <table>
-            <tbody>
-                <tr>
-                    <th>
-                        <span>Nombre Completo</span>
-                    </th>
-                    <td>Williams Racing</td>
-                </tr>
-                <tr>
-                 <th>
-                     <span>Base</span>
-                 </th>
-                 <td>Grove, Reino Unido</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Chasis</span>
-                 </th>
-                 <td>FW44</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Unidad de poder</span>
-                 </th>
-                 <td>Mercedes</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Campeonatos Mundiales</span>
-                 </th>
-                 <td>9</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Mejor puesto en carrera</span>
-                 </th>
-                 <td>1°(x144)</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Poles</span>
-                 </th>
-                 <td>128</td>
-             </tr>
-             <tr>
-                 <th>
-                     <span>Vueltas Rapidas</span>
-                 </th>
-                 <td>133</td>
-             </tr>
-             </tbody>
-           </table>
+            <ul>
+                <li>Nombre: Williams Racing</li>
+                <li>Base: Grove, Reino Unido </li>
+                <li>Chasis: FW44 </li>
+                <li>Unidad de poder: Mercedes</li>
+                <li>Campeonatos Mundiales: 9</li>
+                <li>Mejor puesto en carrera: 1°(x114)</li>
+                <li>Poles: 128</li>
+                <li>Vueltas Rapidas: 133</li>
+            </ul> 
         </div>
     </main>
     <footer class="footer">
         <div class="footer__redes">
             <a href= https://www.instagram.com/f1/ ><img src="../imagenes/Instagram.png" width="20" alt="instagram"></a>
-            <a href= https://www.facebook.com/Formula1  ><img src="../imagenes/Facebook-Logo-Square-768x768.png" width="20" alt="facebook"></a>
-            <a href= https://twitter.com/f1 ><img src="../imagenes/twitter.jpg" width="20" alt="twitter"></a>
+            <a href= https://www.facebook.com/Formula1  ><img src="../imagenes/facebook.png" width="20" alt="facebook"></a>
+            <a href= https://twitter.com/f1 ><img src="../imagenes/twitter.png" width="20" alt="twitter"></a>
             <a href= https://www.youtube.com/F1 ><img src="../imagenes/youtube.png" width="20" alt="youtube"></a>
         </div>
 
@@ -598,21 +182,21 @@
 
         </div>
         <div class=" formulario">
-            <h3>Contactanos</h3>
-            <form action="" method="post"> <!--a donde enviar los datos? -->
+            <p>Contactanos</p>
+            <form class="formulario__cont" action="" method="post"> <!--a donde enviar los datos? -->
                 <label for="Nombre">Nombre</label>
                 <input id="Nombre" name="Nombre" type="text" placeholder="Nombre">
-                <br>
+
                 <label for="Apellido">Apellido</label>
                 <input id="Apellido" name="Apellido" type="text" placeholder="Apellido">
-                <br>
+
                 <label for="Informacion de contacto">Informacion de contacto</label>
                 <input type="email" name="Informacion de contacto" id="Informacion de contacto" placeholder="Tu email">
-                <br>
+
                 <label for="Preguntas y Comentarios">Preguntas y comentarios</label>
-                <br>
+
                 <textarea name="Comentarios" id="Preguntas y Comentario" cols="30" rows="7"></textarea>
-                <br>
+
                 <input type="submit" name="Enviar" id="Enviar">
             </form>
 
@@ -623,7 +207,6 @@
 
 
     </footer>
-
 
 
 </body>

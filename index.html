@@ -9,12 +9,13 @@
     
 </head>
 <body>
-    <header>
+    <header class="header__color">
             <nav class="header__color">
                 <img src="https://www.formula1.com/etc/designs/fom-website/images/fia_logo.png" class="header__fia" alt="fia_logo_final_">
                 <a href= ./index.html ><img src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg" class="header__f1"  alt="f1"></a>    
                 <div class="nav__flex">
-                <ul class="header__nav">
+                <ul class="header__nav" id="lateral">
+                    <a href="#"><li><img src="./imagenes/right-arrow-alt-regular-24.png" class="flecha__cierre" alt="flecha__cierre"></li></a>
                     <a href="./pages/escuderias.html">  <li>escuderias</li></a>
                     <a href="./pages/pilotos.html"><li>pilotos</li></a>
                     <a href="./pages/circuitos.html"><li>circuitos</li></a>
@@ -22,141 +23,56 @@
                 </ul>
             </div>
             </nav>
+                <a href="#lateral" class="nav__open">
+                    <img src="./imagenes/menu-alt-right-regular-24.png" width="35px" alt="menu lateral">
+                    <span class="jam jam-menu"></span>
+                </a>
 </header>
     <main class="main__pos">
-        <section >
-            <h2>Campeonato Actual</h2>
-                <table class="table__base" >
-                <thead class="table__head">
-                    <th>Piloto</th>
-                    <th>Puntos</th>
-                </thead>
-                <tbody class="table__body">
-                   <tr>
-                       <td>leclerc</td>
-                       <td>45</td>
-                   </tr>
-                   <tr>
-                       <td>sainz</td>
-                       <td>33</td>
-                   </tr>
-                   <tr>
-                       <td>verstapen</td>
-                       <td>25</td>
-                   </tr>
-                   <tr>
-                       <td>russel</td>
-                       <td>22</td>
-                   </tr>
-                   <tr>
-                       <td>hamilton</td>
-                       <td>16</td>
-                   </tr>
-                   <tr>
-                       <td>ocon</td>
-                       <td>14</td>
-                   </tr>
-                   <tr>
-                       <td>perez</td>
-                       <td>12</td>
-                   </tr>
-                   <tr>
-                       <td>magnussen</td>
-                       <td>12</td>
-                   </tr>
-                   <tr>
-                       <td>bottas</td>
-                       <td>8</td>
-                   </tr>
-                   <tr>
-                       <td>norris</td>
-                       <td>6</td>
-                   </tr>
-                   <tr>
-                       <td>tsunoda</td>
-                       <td>4</td>
-                   </tr>
-                   <tr>
-                       <td>gasly</td>
-                       <td>4</td>
-                   </tr>
-                   <tr>
-                       <td>alonso</td>
-                       <td>2</td>
-                   </tr>
-                   <tr>
-                       <td>zhou</td>
-                       <td>1</td>
-                   </tr>
-                   <tr>
-                       <td>schumacher</td>
-                       <td>0</td>
-                   </tr>
-                   <tr>
-                       <td>stroll</td>
-                       <td>0</td>
-                   </tr>
-                   <tr>
-                       <td>hulkenber</td>
-                       <td>0</td>
-                   </tr>
-                   <tr>
-                       <td>albon</td>
-                       <td>0</td>
-                   </tr>
-                   <tr>
-                       <td>ricciardo</td>
-                       <td>0</td>
-                   </tr>
-                   <tr>
-                       <td>latifi</td>
-                       <td>0</td>
-                   </tr>
-                  
-                
-                </tbody>
-
-                </table>
-        </section>
         <section class="noticia">    
             <h2 class="noticia__titulo">Ultimas Noticia</h2>
-             <p class="noticia__cuerpo">Haas F1 Team Principal Guenther Steiner has spoken about Kevin Magnussen’s
-               improved motivation and maturity after the Dane spent a year out of Formula 1
-                before returning in 2022 with the rejuvenated squad.</p>
-                <img src="./imagenes/foto noticia.png" class="noticia__img" alt="foto magnussen">
+            <p class="noticia__cuerpo">Fernando Alonso se ha ‘mojado’ sobre la complicada situación en la que se encuentra Lewis Hamilton esta temporada. 
+                El asturiano, tras un GP de la Emilia Romaña en el que Lewis terminó decimotercero, asegura que el británico sigue a muy buen nivel… pero "así es la Fórmula 1".
+                Fernando conoce bien la situación en la que se encuentra Lewis.
+                Ambos tuvieron coches para ganar títulos en el pasado, pero este año –en el caso del bicampeón español, en los últimos años– están enfrascados en la batalla por liderar el grupo medio en lugar de pelear con Ferrari o Red Bull. 
+                "Cuando Senna ganó carreras y títulos, tenía el coche más rápido. Cuando yo gané el campeonato, tenía el coche más rápido. Michael tenía el coche más rápido. 
+                Lewis rompió todos los récords porque tenía el coche más rápido. 
+                Ahora, Lewis está pilotando muy bien y es 13º. Así es la Fórmula 1", ha agregado. </p>
+                <img src="./imagenes/img-noticia.jpg" class="noticia__img" alt="foto magnussen">
         </section> 
+        <section class="img__camp" >
+            <img src="./imagenes/Campeonato-act.png" class="img__camp2" width="65%" alt="Campeonato-act">
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__redes">
-            <a href= https://www.instagram.com/f1/ ><img src="./imagenes/Instagram.png" width="20" alt="instagram"></a>
-            <a href= https://www.facebook.com/Formula1  ><img src="./imagenes/Facebook-Logo-Square-768x768.png" width="20" alt="facebook"></a>
-            <a href= https://twitter.com/f1 ><img src="./imagenes/twitter.jpg" width="20" alt="twitter"></a>
-            <a href= https://www.youtube.com/F1 ><img src="./imagenes/youtube.png" width="20" alt="youtube"></a>
+            <a href= https://www.instagram.com/f1/ ><img src="../imagenes/Instagram.png" width="20" alt="instagram"></a>
+            <a href= https://www.facebook.com/Formula1  ><img src="../imagenes/facebook.png" width="20" alt="facebook"></a>
+            <a href= https://twitter.com/f1 ><img src="../imagenes/twitter.png" width="20" alt="twitter"></a>
+            <a href= https://www.youtube.com/F1 ><img src="../imagenes/youtube.png" width="20" alt="youtube"></a>
         </div>
 
         <div class="copyright">
 
         </div>
         <div class=" formulario">
-            <section class="formulario__cont">
-            <h3>Contactanos</h3>
-            <form action="" method="post"> <!--a donde enviar los datos? -->
+            <p>Contactanos</p>
+            <form class="formulario__cont" action="" method="post"> <!--a donde enviar los datos? -->
                 <label for="Nombre">Nombre</label>
                 <input id="Nombre" name="Nombre" type="text" placeholder="Nombre">
-                <br>
+
                 <label for="Apellido">Apellido</label>
                 <input id="Apellido" name="Apellido" type="text" placeholder="Apellido">
-                <br>
+
                 <label for="Informacion de contacto">Informacion de contacto</label>
                 <input type="email" name="Informacion de contacto" id="Informacion de contacto" placeholder="Tu email">
-                <br>
+
                 <label for="Preguntas y Comentarios">Preguntas y comentarios</label>
-                <br>
+
                 <textarea name="Comentarios" id="Preguntas y Comentario" cols="30" rows="7"></textarea>
-                <br>
+
                 <input type="submit" name="Enviar" id="Enviar">
             </form>
-        </section>
 
 
 

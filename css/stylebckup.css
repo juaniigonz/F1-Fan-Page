@@ -1,95 +1,10 @@
-html {
-    background-color: rgb(235, 235, 235);
-    font-family: "titillium"; 
-    font-size: 17px;
-    line-height: 23px;
-}
-@font-face {
-    font-family: "titillium";
-    src: url(./TitilliumWeb-SemiBold.ttf);
-}
-.header__color{
-    background-color: rgb(245, 0, 0);
-    size-adjust: 10%;
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-.nav__flex{
-    display: inline-flex;
-    flex-direction: row-reverse;
-}
-.header__nav a{
-    text-decoration: none;
-    color: white;
-    list-style: none;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: flex-start;
-
-
-}
-.header__fia{
-    height: 4%;
-    width: 4%;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-.header__f1{
-    margin-top: 5px;
-    margin-left: 1rem;
-    width: 80%;
-    height: auto;
-}
-
-.main__pos{
-    display: flex;
-}
-
-.noticia{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.noticia__img{
-    position: absolute;
-    padding: 1px;
-    border: 3px solid black; 
-    flex-direction: column;
-    width: 30%;
-    right: 600px;
-    top: 500px;
-    
-}
-
-.noticia__titulo{
-    position: absolute;
-    right: 500px;
-    top: 400px;
-    text-decoration: underline;
-}
-.noticia__cuerpo{
-    flex-direction: column;
-    position: absolute;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 400px;
-    height: 100px;
-    border: 2px solid black;
-    background-color: grey;
-    right: 150px;
-    top: 500px;
-    
-    
-}
-
 .table__base{
     border: solid rgb(0, 0, 0) 2px;
     border-collapse: collapse;
     background-color: rgb(168, 168, 168);
-    width: 250px;
+    width: 150%;
     margin: 20px;
+
     
 
 }
@@ -99,52 +14,37 @@ html {
 }
 .table__body{
     border: solid 2px black;
-    
 }
-
-
-
-.footer{
-    display:inline-flex;
-    background-color: rgb(172, 172, 172);
-    width: 100%;
-    flex-direction: row-reverse;
-}
-.formulario{
-    justify-content: center;
-
-}
-.formulario__cont{
-    flex-flow: row;
+.noticia{
+    display: flex;
     flex-direction: column;
-    align-content: space-around;
+    margin: 2rem;
+    align-items: center;
+
+}
+.noticia__titulo{
+    text-decoration: underline;
+    margin: 1rem;
+
+}
+.noticia__cuerpo{
+    flex-wrap: wrap;
+    width: 50%;
+
+}
+.noticia__img{
+    width: 50%;
+    height: 50%;}
+    .main__pos{
+        flex-direction: column;
+    }
+    .table__base{
+        width: 65%;
+        margin: 5% 17.5% 0 17.5%;
+    }
+    .main__pos h2{
+        margin: 1% 25% 0 35%;
+    }
     
-
-}
-
-
-
-.escuderia__ferrari{
-    display: inline-flex;
-
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-.escuderia__ferrari_img{
-    align-items: flex-end; 
-    width: 450px;
-
-
-}
-
-.table__escuderia{
-    list-style: armenian 5px;
-    border: 5px;
-    border: solid black;
-    background-color: grey;
-    text-align: left;
-    position: absolute;
-    right: 500px;
-    top:270px;
-
-}
+    
+    
