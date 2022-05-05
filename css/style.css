@@ -19,7 +19,7 @@ html {
     background-color: #e10600;
     width: 100vw;
     display: flex;
-    height: 5.5vh;
+    height: 7vh;
 }
 .header__fia{
     width: 30px;
@@ -338,7 +338,7 @@ a{
         left: 50%;
         transform: translate(-50%);
         width: 100px;
-        margin-top: 0.3rem;
+        margin-top: 0.8rem;
     
     }
     .header__color{
@@ -383,7 +383,7 @@ a{
         left: 50%;
         transform: translate(-50%);
         width: 100px;
-        margin-top: 0.3rem;
+        margin-top: 0.8rem;
     
     }
 
