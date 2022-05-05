@@ -19,6 +19,7 @@ html {
     background-color: #e10600;
     width: 100vw;
     display: flex;
+    height: 5.5vh;
 }
 .header__fia{
     width: 30px;
@@ -188,10 +189,25 @@ a{
 .cir__banner{ 
     grid-column: 1/3;
     grid-row: 1/2;
+    position: relative;
 }
+.cir__banner h3{
+    text-transform: uppercase;
+    color: white ;
+    z-index: 100;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 3rem ;
+    transform: translate(-50%, 0);
+    
+}
+
 .cir__banner img{
     width: 100%;
-align-self: flex-start;
+    align-self: flex-start;
+    filter: brightness(0.5);
+    opacity: 0.9;
 
 }
 
@@ -252,7 +268,7 @@ align-self: flex-start;
 }
 .card__Cont span{
     font-size: 120%;
-    color: #e10600;
+    color: #00a015;
 }
 .card__img{
     margin: 5% 0 0 11%;
@@ -272,6 +288,15 @@ align-self: flex-start;
 }
 
 @media screen and (max-width:768px){
+    .header__nav{
+        display: none;
+        flex-direction: column;
+    }
+    .nav__open{
+        display: block;
+        margin-right: 0;
+        
+    }
     .header__color{
         width: 100vw;
     }
@@ -284,6 +309,43 @@ align-self: flex-start;
         grid-row: 1/2;
         width: 70%;
     
+    }
+    .nav__open{
+        display: block;
+        margin-right: 0;
+        
+    }
+    #lateral{
+        display: block;
+        width: 30%;
+        height: 40%;
+        position: fixed;
+        top: 0;
+        right: -50%;
+        z-index: 100;
+        background-color: #e10600;
+        transition: right 650ms ;
+    }
+    #lateral:target{
+    right: 0;
+    }
+    .flecha__cierre{
+        display: block;
+    }
+    .header__f1 {
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100px;
+        margin-top: 0.3rem;
+    
+    }
+    .header__color{
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 101;
     }
 }
 
@@ -306,7 +368,7 @@ align-self: flex-start;
         right: -50%;
         z-index: 100;
         background-color: #e10600;
-        transition: right 400ms ;
+        transition: right 650ms ;
     }
     #lateral:target{
     right: 0;
@@ -318,9 +380,9 @@ align-self: flex-start;
     .header__f1 {
         display: inline-block;
         position: absolute;
-        left: 55%;
+        left: 50%;
         transform: translate(-50%);
-        width: 80px;
+        width: 100px;
         margin-top: 0.3rem;
     
     }
@@ -330,7 +392,6 @@ align-self: flex-start;
         overflow: hidden;
         position: relative;
         z-index: 101;
-        height: 2rem;
     }
 .footer__redes{
     justify-content: center;
@@ -364,6 +425,9 @@ align-self: flex-start;
     grid-column: 1/2 ;
 
 
+}
+.cir__banner h3{
+font-size: 2rem;
 }
 }
 @media screen and (max-width:425px){
@@ -399,5 +463,8 @@ align-self: flex-start;
     }
     .cir__data{
         width: 100%;
+    }
+    .cir__banner h3{
+    font-size: 1.5rem;
     }
 }
