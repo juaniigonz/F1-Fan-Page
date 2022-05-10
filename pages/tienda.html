@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1 Fan Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -27,98 +28,83 @@
                 <span class="jam jam-menu"></span>
             </a>
 </header>
-    <main>
+    <main class="bg-light bg-gradient">
         <div class="store">
-            <div class="store__card">
-                <figure class="card__img">
-                    <img src="../imagenes/store/Ferrari-Chaqueta.jpg" alt="Fer-Chaqueta">
-                </figure>
-                <div class="card__Cont">
-                    <h3>Chaqueta Ferrari</h3>
-                    <ul class="card__List">
-                        <li>100% poliester</li>
-                        <li>Logotipo Estampado</li>
-                        <li>Puños Elasticos</li>
-                        <li>Bolsillo de apertura lateral</li>
-                    </ul>
-                    <span>Precio: USD165</span>
+            <div class="row row-cols-1 row-cols-md-3 g-0">
+                <div class="col p-1 store__resp">
+                  <div class="card h-100">
+                    <img src="../imagenes/store/Ferrari-Chaqueta.jpg" class="card-img-top" alt="Ferrari-Chaqueta">
+                    <div class="card-body">
+                      <h5 class="card-title">Chaqueta Ferrari Puma</h5>
+                      <p class="card-text">Esta chaqueta es imprescindible para disfrutar de un aire de F1 definitivo. La prenda de abrigo ideal para cualquier aficionado, ya sea junto a la pista como en cualquier otro lugar.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-success text-dark">
+                      Tu precio: 123,00 USD
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <div class="store__card">
-                <figure class="card__img">
-                    <img src="../imagenes/store/Ferrari-Remera.jpg" alt="Ferrari-Remera">
-                </figure>
-                <div class="card__Cont">
-                    <h3>Remera Ferrari</h3>
-                    <ul>
-                        <li>100% algodon</li>
-                        <li>Logotipo Estampado</li>
-                        <li>Incersiones de malla</li>
-                        <li>Licencia Oficial </li>
-                    </ul>
-                    <span>Precio: USD57</span>
-                </div>
-            </div>
-            <div class="store__card">
-                <figure class="card__img">
-                    <img src="../imagenes/store/Mercedes-Chaqueta.jpg" alt="Mercedes-Chaqueta">
-                </figure>
-                <div class="card__Cont">
-                    <h3>Chaqueta Mercedes</h3>
-                    <ul>
-                        <li>100% Nylon</li>
-                        <li>Logotipo Cosido</li>
-                        <li>Puños y dobladillo elasticos</li>
-                        <li>Bolsillo lateral</li>
-                        <li>Importada</li>
-                    </ul>
-                    <span>Precio: USD152</span>
-                </div>
-            </div>
-            <div class="store__card">
-                <figure class="card__img">
-                    <img src="../imagenes/store/Mercedes-Remera.jpg" alt="Mercedes-Remera">
-                </figure>
-                <div class="card__Cont">
-                    <h3>Remera Mercedes</h3>
-                    <ul>
-                        <li>95% poliester</li>
-                        <li>5% spandex</li>
-                        <li>Graficas Impresas</li>
-                        <li>Importada</li>
-                    </ul>
-                    <span>Precio: USD70</span>
-                </div>
-            </div>
-            <div class="store__card">
-                <figure class="card__img">
-                    <img src="../imagenes/store/RB-Chaqueta.jpg" alt="RB-Chaqueta">
-                </figure>
-                <div class="card__Cont">
-                    <h3>Chaqueta Red Bull</h3>
-                    <ul>
-                        <li>100% poliester</li>
-                        <li>Bolsillos con cremallera</li>
-                        <li>Graficas Impresas</li>
-                        <li>Cremallera frontal</li>
-                    </ul>
-                    <span>Precio: USD178</span>
-                </div>
-            </div>
-            <div class="store__card">
-                <figure class="card__img">
-                    <img src="../imagenes/store/RB-Remera.jpg" alt="RB-Remera">
-                </figure>
-                <div class="card__Cont">
-                    <h3>Remera Red Bull</h3>
-                    <ul>
-                        <li>100% poliester</li>
-                        <li>Graficas Impresas</li>
-                        <li>Importada</li>
-                    </ul>
-                    <span>Precio: USD76</span>
-                </div>
-            </div>
+                <div class="col p-1 store__resp">
+                    <div class="card h-100">
+                      <img src="../imagenes/store/Ferrari-Remera.jpg" class="card-img-top" alt="Ferrari-Remera">
+                      <div class="card-body">
+                        <h5 class="card-title">Remera Ferrari</h5>
+                        <p class="card-text">Toma una prenda esencial y dale el auténtico toque de las carreras. Es probable que ninguna pieza de ropa te acompañe tan lejos como una camiseta clástica, así que asegúrate de que la tuya refleje tu pasión y te dé un aspecto excelente.</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-success text-dark">
+                        Tu precio: 44 USD
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col p-1 store__resp">
+                    <div class="card h-100">
+                      <img src="../imagenes/store/Mercedes-Chaqueta.jpg" class="card-img-top" alt="Chaqueta-Mercedes">
+                      <div class="card-body">
+                        <h5 class="card-title">Chaqueta Mercedes</h5>
+                        <p class="card-text">Esta chaqueta es imprescindible para disfrutar de un aire de F1 definitivo. La prenda de abrigo ideal para cualquier aficionado que quiera proclamar su apoyo a su equipo de carreras.</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-success text-dark">
+                        Tu precio: 114 USD
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col p-1 store__resp">
+                    <div class="card h-100">
+                      <img src="../imagenes/store/Mercedes-Remera.jpg" class="card-img-top" alt="Remera Mercedes">
+                      <div class="card-body">
+                        <h5 class="card-title">Remera Mercedes</h5>
+                        <p class="card-text">Toma una prenda esencial y dale el auténtico toque de las carreras. Es probable que ninguna pieza de ropa te acompañe tan lejos como una camiseta clástica, así que asegúrate de que la tuya refleje tu pasión y te dé un aspecto excelente.</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-success text-dark">
+                        Tu precio: 52 USD
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col p-1 store__resp">
+                    <div class="card h-100">
+                      <img src="../imagenes/store/RB-Chaqueta.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Chaqueta Red Bull</h5>
+                        <p class="card-text">Ahora, la prenda emblemática de cualquier equipo de carreras puede ser tuya. Lleves lo que lleves, sin duda esto será lo que te hará destacar. El estilo, la precisión y el diseño de alta calidad se combinan para convertir este en el accesorio definitivo para cualquier aficionado a la Fórmula Uno.</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-success text-dark">
+                        Tu precio: 133 USD
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col p-1 store__resp">
+                    <div class="card h-100">
+                      <img src="../imagenes/store/RB-Remera.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Remera Red Bull</h5>
+                        <p class="card-text">Consigue una sensación más cálida con esta fantástica sudadera. La marca icónica de F1 es, sin duda, una forma excelente de mostrar tu apoyo, haga el tiempo que haga</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-success text-dark">
+                        Tu precio: 57 USD
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
         </div>
 
  
@@ -166,6 +152,7 @@
 
 
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
 </body>

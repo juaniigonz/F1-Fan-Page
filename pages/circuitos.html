@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1 Fan Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -28,7 +29,38 @@
             </a>
 </header>
         <h2>Calendario Temporada 2022</h2>
-        <div class="cir__cont">
+        <div class="dropdown drop__cust">
+            <a class="btn btn-secondary dropdown-toggle" style="background-color: #e10600 ; border: #e10600 ;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Circuitos
+            </a>
+          
+            <ul class="dropdown-menu" style="background-color: #e10600 ;" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#bahrain">Bahrain</a></li>
+              <li><a class="dropdown-item" href="#jeddah">Jeddah</a></li>
+              <li><a class="dropdown-item" href="#australia">Australia</a></li>
+              <li><a class="dropdown-item" href="#italia">Italia</a></li>
+              <li><a class="dropdown-item" href="#miami">Miami</a></li>
+              <li><a class="dropdown-item" href="#catalunya">Catalunya</a></li>
+              <li><a class="dropdown-item" href="#monaco">Monaco</a></li>
+              <li><a class="dropdown-item" href="#azerbaijan">Azerbaijan</a></li>
+              <li><a class="dropdown-item" href="#canada">Canada</a></li>
+              <li><a class="dropdown-item" href="#granbretaña">Gran Bretaña</a></li>
+              <li><a class="dropdown-item" href="#austria">Austria</a></li>
+              <li><a class="dropdown-item" href="#francia">Francia</a></li>
+              <li><a class="dropdown-item" href="#hungria">Hungria</a></li>
+              <li><a class="dropdown-item" href="#belgica">Belgica</a></li>
+              <li><a class="dropdown-item" href="#holanda">Holanda</a></li>
+              <li><a class="dropdown-item" href="#monza">Monza</a></li>
+              <li><a class="dropdown-item" href="#singapore">Singapore</a></li>
+              <li><a class="dropdown-item" href="#japon">Japon</a></li>
+              <li><a class="dropdown-item" href="#usa">USA</a></li>
+              <li><a class="dropdown-item" href="#mexico">Mexico</a></li>
+              <li><a class="dropdown-item" href="#brazil">Brazil</a></li>
+              <li><a class="dropdown-item" href="#abudhabi">Abu Dhabi</a></li>
+            </ul>
+            </ul>
+          </div>
+        <div class="cir__cont" id="bahrain">
             <div class="cir__banner">
             <h3>Bahrain</h3>
             <img src="../imagenes/circuito/Banners/bahrain-banner.jpg" alt="bahrain-banner">
@@ -41,7 +73,7 @@
                 ponen a prueba la destreza y precision de cada piloto. </p>
             <img src="../imagenes/circuito/bahrain2.png" class="cir__data" alt="bahrain">        
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="jeddah">
             <div class="cir__banner">
             <h3>Jeddah</h3>
             <img src="../imagenes/circuito/Banners/saudi-arabia-banner.jpg" alt="Jeddah-banner">
@@ -52,7 +84,7 @@
                 El Circuito de unos 6.174km, fue utilizado por el gran circo por primera vez en 2021</p>
                 <img src="../imagenes/circuito/jeddah2.png" class="cir__data" alt="Arabia Saudita">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="australia">
             <div class="cir__banner">
             <H3>Australia</H3>
             <img src="../imagenes/circuito/Banners/australia-banner.jpg" alt="australia-banner">
@@ -62,7 +94,7 @@
                 Con tan solo 14 curvas en 58 vueltas y una longitud de 5.278km es uno de los mas rapidos del calendario </p>
                 <img src="../imagenes/circuito/australia-melbourn.png" class="cir__data" alt="Australia">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="italia">
             <div class="cir__banner">
             <h3>Italia</h3>
             <img src="../imagenes/circuito/Banners/imola-banner.jpg" alt="imola-banner">
@@ -74,7 +106,7 @@
             se deben valer de su calidad de adelantamiento en las curvas. </p>
             <img src="../imagenes/circuito/italia-imola (2).png" class="cir__data" alt="Imola">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="miami">
             <div class="cir__banner">
             <h3>Miami</h3>
             <img src="../imagenes/circuito/Banners/miami-banner.jpg" alt="miami-banner">  
@@ -84,7 +116,7 @@
             Un callejero espectacular, compuesto por 5.41km, 19 curvas y 3 potenciales zonas de DRS</p>
             <img src="../imagenes/circuito/usa-miami.png" class="cir__data" alt="Miami">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="catalunya">
             <div class="cir__banner">
             <h3>Catalunya</h3>
             <img src="../imagenes/circuito/Banners/españa-banner.jpg" alt="españa-banner">
@@ -96,7 +128,7 @@
         </p>
         <img src="../imagenes/circuito/españa-catalunya.png" class="cir__data" alt="Catalunya">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="monaco">
             <div class="cir__banner">
             <h3>Monaco</h3>
             <img src="../imagenes/circuito/Banners/monaco-banner.jpg" alt="monaco-banner">
@@ -108,7 +140,7 @@
             </p>
             <img src="../imagenes/circuito/monaco.png" class="cir__data" alt="Monaco">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="azerbaijan">
             <div class="cir__banner">
             <h3>Azerbaijan</h3>
             <img src="../imagenes/circuito/Banners/azerbaijan-banner.jpg" alt="azerbaijan-banner">
@@ -122,7 +154,7 @@
             </p>
             <img src="../imagenes/circuito/azerbaijan-baku.png" class="cir__data" alt="Baku">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="canada">
             <div class="cir__banner">
             <h3>Canada</h3>
             <img src="../imagenes/circuito/Banners/canada-banner.jpg" alt="canada-banner">
@@ -133,7 +165,7 @@
             </p>
             <img src="../imagenes/circuito/canada-villeneuve.png" class="cir__data" alt="Canada">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="granbretaña">
             <div class="cir__banner">
             <h3>Gran Bretaña</h3>
             <img src="../imagenes/circuito/Banners/silverstone-banner.jpg" alt="silverstone-banner">
@@ -144,7 +176,7 @@
             </p>
             <img src="../imagenes/circuito/gb-silverstone.png" class="cir__data" alt="Gran Bretaña">
         </div>
-            <div class="cir__cont">
+            <div class="cir__cont" id="austria">
             <div class="cir__banner">
             <h3>Austria</h3>
             <img src="../imagenes/circuito/Banners/austria-banner.jpg" alt="austria-banner">
@@ -157,7 +189,7 @@
             </p>
             <img src="../imagenes/circuito/austria-redbull.png" class="cir__data" alt="Austria">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="francia">
             <div class="cir__banner">
             <h3>Francia</h3>
             <img src="../imagenes/circuito/Banners/francia-banner.jpg" alt="francia-banner">
@@ -169,7 +201,7 @@
         </p>
         <img src="../imagenes/circuito/francia-paul-ricard.png" class="cir__data" alt="Francia">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="hungria">
             <div class="cir__banner">
             <h3>Hungria</h3>
             <img src="../imagenes/circuito/Banners/hungria-banner.jpg" alt="hungria-banner">
@@ -182,7 +214,7 @@
             </p>
             <img src="../imagenes/circuito/hungria.png" class="cir__data" alt="Hungria">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="belgica">
             <div class="cir__banner">
             <h3>Belgica</h3>
             <img src="../imagenes/circuito/Banners/spa-banner.jpg" alt="spa-banner">
@@ -195,7 +227,7 @@
             </p>
             <img src="../imagenes/circuito/belgica-spa.png" class="cir__data" alt="Belgica">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="holanda">
             <div class="cir__banner">
             <h3>Holanda</h3>
             <img src="../imagenes/circuito/Banners/holanda-banner.jpg" alt="holanda-banner">
@@ -207,7 +239,7 @@
             </p>
             <img src="../imagenes/circuito/holanda-zandvoort.png" class="cir__data" alt="Holanda">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="monza">
             <div class="cir__banner">
             <h3>Monza</h3>
             <img src="../imagenes/circuito/Banners/monza-banner.jpg" alt="monza-banner">
@@ -218,7 +250,7 @@
             </p>
         <img src="../imagenes/circuito/italia-monza.png" class="cir__data" alt="Monza">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="singanpore">
             <div class="cir__banner">
             <h3>Singapore</h3>
             <img src="../imagenes/circuito/Banners/singapore-banner.jpg" alt="singapore-banner">
@@ -230,7 +262,7 @@
             </p>
             <img src="../imagenes/circuito/singapore-marina-bay.png" class="cir__data" alt="Marina Bay">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="japon">
             <div class="cir__banner">
             <h3>Japon</h3>
             <img src="../imagenes/circuito/Banners/japon-banner.jpg" alt="japon-banner">
@@ -241,7 +273,7 @@
             </p>
             <img src="../imagenes/circuito/japon-suzuka.png" class="cir__data" alt="Japon">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="usa">
             <div class="cir__banner">
             <h3>USA</h3>
             <img src="../imagenes/circuito/Banners/coa-banner.jpg" alt="coa-banner">
@@ -252,7 +284,7 @@
             </p>
             <img src="../imagenes/circuito/usa-coa.png" class="cir__data" alt="COTA">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="mexico">
             <div class="cir__banner">
             <h3>Mexico</h3>
             <img src="../imagenes/circuito/Banners/mexico-banner.jpg" alt="mexico-banner">
@@ -263,7 +295,7 @@
             </p>
             <img src="../imagenes/circuito/mexico-cdmx.png" class="cir__data" alt="Mexico">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="brazil">
             <div class="cir__banner">
             <h3>Brazil</h3>
             <img src="../imagenes/circuito/Banners/brazil-banner.jpg" alt="brazil-banner">
@@ -275,7 +307,7 @@
             </p>
             <img src="../imagenes/circuito/brazil-interlagos.png" class="cir__data" alt="Brazil">
         </div>
-        <div class="cir__cont">
+        <div class="cir__cont" id="abudhabi">
             <div class="cir__banner">
             <h3>Abu Dhabi</h3>
             <img src="../imagenes/circuito/Banners/abudhabi-banner.jpg" alt="abudhabi-banner">
@@ -326,6 +358,7 @@
 
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
 
