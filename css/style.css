@@ -180,15 +180,14 @@ a{
 .pil__card:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 }
-.pil__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.pil__card ul{
-    align-self:flex-start;
-}
 
+
+.pil__card:target{
+    box-shadow: 5px 5px 20px #e10600;
+}
+.pil__card2:target{
+    box-shadow: 5px 5px 20px #e10600;
+}
 
 
 
@@ -235,7 +234,10 @@ a{
 .cir__data{
     width: 100%;
 }
-
+.drop__menu{
+    height: 250px;
+    overflow-y: auto;
+}
 
 /* --------------------------------------------------- */
 .store{
@@ -256,7 +258,10 @@ a{
     .noticia__titulo{
         width: 60%;
     }
+    .header__color{
+        margin-bottom: 1rem;
 
+    }
 }
 
 @media screen and (max-width:768px){
