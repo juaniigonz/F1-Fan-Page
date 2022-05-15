@@ -1,0 +1,44 @@
+.cir__cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    margin: 5px;
+}
+
+
+
+.cir__banner{ 
+    grid-column: 1/3;
+    grid-row: 1/2;
+    position: relative;
+h3{
+    text-transform: uppercase;
+    color: $color-secundario ;
+    z-index: 100;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 3rem ;
+    transform: translate(-50%, 0);
+    
+}
+img{
+    width: 100%;
+    align-self: flex-start;
+    filter: brightness(0.5);
+    opacity: 0.9;
+
+}
+}
+
+.cir__cont p{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.cir__data{
+    width: 100%;
+}
+.drop__menu{
+    height: 250px;
+    overflow-y: auto;
+}

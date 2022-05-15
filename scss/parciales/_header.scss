@@ -1,0 +1,46 @@
+.header__color{
+    background-color: $color-primario;
+    width: 100vw;
+    display: flex;
+    height: 7vh;
+}
+.header__fia{
+    width: 30px;
+    height: 20px;
+    margin: 0.2rem;
+}
+.header__f1{
+    margin: 0.6rem 0.3rem 0.3rem ;
+    width: 120px;
+    
+}
+.nav__flex{
+    display: flex;
+    flex-grow: 1 ;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+.header__nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+    padding: 0%;
+    
+}
+a{
+    color: $color-secundario !important;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 3rem;
+    text-transform: uppercase;  
+}
+.nav__open{
+    display: none;
+}
+.flecha__cierre{
+    display: none;
+    color: $color-secundario;
+}
