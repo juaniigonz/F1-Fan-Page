@@ -3,6 +3,15 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 1fr;
     margin: 5px;
+    p{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+        align-self: center;
+        margin: 1rem;
+        font-size: 1.5rem;
+        font-style: oblique;
+    }
 }
 
 
@@ -31,10 +40,7 @@ img{
 }
 }
 
-.cir__cont p{
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
+
 .cir__data{
     width: 100%;
 }

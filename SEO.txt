@@ -1,0 +1,10 @@
+SEO
+-- agregado de palabras claves y descripcion
+--revision de los alt
+-- agregado de titulos en las paginas faltantes
+-- cambio de algunos textos que quedaron mal
+
+SASS II
+-- usado de map para las paginas de escuderias 
+y pilotos que compartian la estructura flex
+

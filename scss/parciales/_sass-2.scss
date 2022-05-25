@@ -1,0 +1,25 @@
+//Map//
+
+$flex: (
+    display: flex,
+    flex-direction: row,
+    flex-wrap:wrap,
+    justify-content: center,
+    justify-self: center,
+);
+
+//map de escuderias y pilotos//
+.pilotos{
+    display: map-get($flex, display);
+    flex-direction: map-get($flex,flex-direction );
+    flex-wrap: map-get($flex, wrap );
+    justify-content: map-get($flex, center );
+    justify-self: map-get($flex, center );
+}
+.escuderias{
+    display: map-get($flex, display);
+    flex-direction: map-get($flex,flex-direction );
+    flex-wrap: map-get($flex, wrap );
+    justify-content: map-get($flex, center );
+    justify-self: map-get($flex, center );
+}

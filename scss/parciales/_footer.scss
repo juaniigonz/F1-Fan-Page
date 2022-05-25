@@ -9,12 +9,12 @@
     display: flex;
     justify-self: flex-end;
     justify-content: flex-end;  
-a{
-    padding: 0;
-}}
+    margin-top: 0.5rem;
+}
 .formulario{
     display: flex;
     flex-direction: column;
+    margin-left: 0.5rem;
 
 }
 .formulario__cont{
@@ -22,4 +22,9 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 0.5rem;
+}
+.jam{
+    color: black;
+    font-size: 1.6rem;
 }
